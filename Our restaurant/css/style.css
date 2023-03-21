@@ -508,5 +508,14 @@ body {
   padding-top: 55px;
   padding-right: 165px;
 }
+.navlist{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
 
 /* end heder */
