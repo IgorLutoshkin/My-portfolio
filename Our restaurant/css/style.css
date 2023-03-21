@@ -504,5 +504,9 @@ body {
 .logo-wrap__pic{
   display: block;
 }
+.navbar{
+  padding-top: 55px;
+  padding-right: 165px;
+}
 
 /* end heder */
