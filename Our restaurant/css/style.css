@@ -1,4 +1,4 @@
-/* reset *//* http://meyerweb.com/eric/tools/css/reset/
+/* reset */ /* http://meyerweb.com/eric/tools/css/reset/
 v2.0-modified | 20110126
 License: none (public domain)
 */
@@ -483,11 +483,16 @@ html {
   left: 0;
 }
 
-body{
-	max-width: 1440px;
-	color: #000;
+body {
+  max-width: 1440px;
+  color: #000;
 }
-
 /* reset */
 
-
+/* start heder */
+.heder {
+  display: flex;
+  justify-content: space-between;
+  background: url(/img/heroimage.jpg) no-repeat;
+}
+/* end heder */
