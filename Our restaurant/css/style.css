@@ -484,6 +484,7 @@ html {
 }
 
 body {
+  margin: 0 auto;
   max-width: 1440px;
   color: #000;
 }
@@ -494,5 +495,11 @@ body {
   display: flex;
   justify-content: space-between;
   background: url(/img/heroimage.jpg) no-repeat;
+  color: #fff;
 }
+.logo-wrap {
+  padding-top: 50px;
+  padding-left: 165px;
+}
+
 /* end heder */
