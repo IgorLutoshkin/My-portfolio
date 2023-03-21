@@ -84,7 +84,7 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
   border: 0;
   font-size: 100%;
@@ -501,21 +501,30 @@ body {
   padding-top: 50px;
   padding-left: 165px;
 }
-.logo-wrap__pic{
+.logo-wrap__pic {
   display: block;
 }
-.navbar{
+.navbar {
   padding-top: 55px;
   padding-right: 165px;
 }
-.navlist{
+.navlist {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.navlist__item-link,
+.navlist__item-btn,
+.navlist__item-phone {
+  color: #fff;
+  text-decoration: none;
+}
 
+.item-phone{
+  display: flex;
+  flex-direction: column;
 
-
+}
 
 /* end heder */
