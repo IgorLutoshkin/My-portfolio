@@ -501,5 +501,8 @@ body {
   padding-top: 50px;
   padding-left: 165px;
 }
+.logo-wrap__pic{
+  display: block;
+}
 
 /* end heder */
