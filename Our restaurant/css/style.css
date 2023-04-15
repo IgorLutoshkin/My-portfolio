@@ -514,6 +514,10 @@ body {
   align-items: center;
 }
 
+.navlist__item-link,
+.navlist__item{
+  display: block;
+}
 
 
 
