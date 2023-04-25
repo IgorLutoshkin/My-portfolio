@@ -200,6 +200,20 @@ a {
 .navlist__item-btn {
   padding: 14px 18px;
   background-color: #ff7400;
+  transition: 0.3s;
+}
+.navlist__item-link,
+.navlist__item-phone {
+  transition: 0.3s;
+}
+.navlist__item-link:hover,
+.navlist__item-phone:hover {
+  color: #ff7400;
+  opacity: 0.9;
+}
+.navlist__item-btn:hover{
+  background-color: #ffffff;
+  color:#ff7400;
 }
 
 /* end heder */
