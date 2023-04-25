@@ -154,7 +154,6 @@ a {
 }
 .navbar {
   padding-top: 55px;
- 
 }
 .navlist {
   display: flex;
@@ -173,6 +172,7 @@ a {
   flex-wrap: nowrap;
 }
 .item-phone__number {
+  padding-left: 8px;
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
@@ -182,15 +182,24 @@ a {
   padding-right: 23px;
 }
 
-.line{
+.line {
   display: block;
   height: 1px;
   width: 51px;
   background-color: #fff;
   transform: rotate(90deg);
 }
-.navlist__item-line{
+.navlist__item:nth-child(5),
+.navlist__item:nth-child(6),
+.navlist__item:nth-child(8) {
   padding: 0;
+}
+.navlist__item:nth-child(7) {
+  padding-right: 45px;
+}
+.navlist__item-btn {
+  padding: 14px 18px;
+  background-color: #ff7400;
 }
 
 /* end heder */
