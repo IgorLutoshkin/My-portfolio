@@ -127,6 +127,7 @@ body {
   margin: 0 auto;
   max-width: 1440px;
   color: #000;
+  font-family: 'Tinos', serif;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -137,10 +138,13 @@ a {
 /* reset */
 
 /* start heder */
+.heder {
+  background-image: url(../img/heroimage.jpg);
+}
 .heder-nav {
+  padding-bottom: 203px;
   display: flex;
   justify-content: start;
-  background-image: url(../img/heroimage.jpg);
   color: #fff;
 }
 .logo-wrap {
@@ -198,22 +202,77 @@ a {
   padding-right: 45px;
 }
 .navlist__item-btn {
+  display: block;
   padding: 14px 18px;
   background-color: #ff7400;
-  transition: 0.3s;
 }
 .navlist__item-link,
 .navlist__item-phone {
-  transition: 0.3s;
 }
 .navlist__item-link:hover,
 .navlist__item-phone:hover {
-  color: #ff7400;
-  opacity: 0.9;
+  color: #d67e35;
+  transition: 0.35s linear;
 }
-.navlist__item-btn:hover{
+.navlist__item-btn:hover {
   background-color: #ffffff;
-  color:#ff7400;
+  color: #ff7400;
+  transition: 0.35s linear;
 }
 
+.heder-title__btn {
+  width: 137px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+}
+.heder-title__welcome {
+  padding-left: 199px;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 57px;
+  color: #d67e35;
+}
+.heder-title__restaurant-name {
+  padding-left: 175px;
+  padding-bottom: 12px;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 92px;
+  color: #d67e35;
+}
+.heder-title__slogan {
+  padding-left: 271px;
+  padding-bottom: 21px;
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.slogan__line {
+  display: block;
+  height: 2px;
+  width: 61px;
+  background-color: #fff;
+}
+.slogan__text{
+  padding: 0 8px;
+}
+.heder-title__btn{
+  padding-left: 356px;
+  padding-bottom: 231px;
+  box-sizing: unset;
+}
 /* end heder */
