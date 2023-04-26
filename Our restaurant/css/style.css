@@ -137,7 +137,7 @@ a {
 /* reset */
 
 /* start heder */
-.heder {
+.heder-nav {
   display: flex;
   justify-content: start;
   background-image: url(../img/heroimage.jpg);
