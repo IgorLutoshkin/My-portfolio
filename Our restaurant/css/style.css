@@ -127,7 +127,7 @@ body {
   margin: 0 auto;
   max-width: 1440px;
   color: #000;
-  font-family: 'Tinos', serif;
+  font-family: "Tinos", serif;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -240,7 +240,7 @@ a {
 }
 .heder-title__restaurant-name {
   padding-left: 175px;
-  padding-bottom: 12px;
+  padding-bottom: 6px;
   font-family: "Tinos";
   font-style: normal;
   font-weight: 400;
@@ -267,12 +267,29 @@ a {
   width: 61px;
   background-color: #fff;
 }
-.slogan__text{
+.slogan__text {
   padding: 0 8px;
 }
-.heder-title__btn{
+.heder-title__btn {
   padding-left: 356px;
   padding-bottom: 231px;
   box-sizing: unset;
 }
 /* end heder */
+
+/* start intro */
+.intro {
+  position: absolute;
+  display: flex;
+  top: 693px;
+  left: 166px;
+  
+}
+.intro__card {
+  margin-right: 31px;
+  background-color: #c02525;
+  width:349px;
+  height: 328px;
+  
+}
+/* end intro */
