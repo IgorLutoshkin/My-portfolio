@@ -293,7 +293,18 @@ a {
 }
 .intro__card-logo {
   padding-top: 48px;
+  padding-bottom: 4px;
   display: block;
   margin: 0 auto;
 }
+.intro__card-title {
+  text-align: center;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #2c2c2c;
+}
+
 /* end intro */
