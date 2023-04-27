@@ -291,4 +291,9 @@ a {
   background-color: #fff;
   box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
 }
+.intro__card-logo {
+  padding-top: 48px;
+  display: block;
+  margin: 0 auto;
+}
 /* end intro */
