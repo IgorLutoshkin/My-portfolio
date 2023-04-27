@@ -283,13 +283,12 @@ a {
   display: flex;
   top: 693px;
   left: 166px;
-  
 }
 .intro__card {
   margin-right: 31px;
-  background-color: #c02525;
-  width:349px;
+  width: 349px;
   height: 328px;
-  
+  background-color: #fff;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
 }
 /* end intro */
