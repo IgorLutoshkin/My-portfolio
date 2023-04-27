@@ -307,7 +307,18 @@ a {
   line-height: 30px;
   color: #2c2c2c;
 }
-.intro__card-title_bronze{
-  color: #BC9060;
+.intro__card-title_bronze {
+  color: #bc9060;
+}
+.intro__card-desc {
+  width: 330px;
+  margin: 0 auto;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #656363;
 }
 /* end intro */
