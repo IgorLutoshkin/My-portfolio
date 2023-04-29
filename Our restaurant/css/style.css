@@ -371,10 +371,10 @@ a {
   line-height: 54px;
   text-align: center;
 }
-.counter__list__item-num:nth-child(1){
+.counter__list__item-num:nth-child(1) {
   padding-right: 41px;
 }
-.counter__list__item-num:nth-child(2){
+.counter__list__item-num:nth-child(2) {
   padding-right: 30px;
 }
 .counter__list__text {
@@ -387,7 +387,18 @@ a {
   color: #000000;
 }
 
-.history__footer{
+.history__footer {
   background-image: url(../img/bg-history.jpg);
+}
+.history__footer-title {
+  padding-top: 80px;
+  padding-bottom: 157px;
+  margin-left: 165px;
+  width: 601px;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 60px;
 }
 /* end history */
