@@ -140,6 +140,7 @@ a {
 
 /* start heder */
 .heder {
+  margin-bottom: 372px;
   background-image: url(../img/heroimage.jpg);
 }
 .heder-nav {
@@ -308,7 +309,7 @@ a {
   line-height: 30px;
   color: #2c2c2c;
 }
-.intro__card-title_bronze {
+.text_bronze {
   color: #bc9060;
 }
 .intro__card-desc {
@@ -323,3 +324,7 @@ a {
   color: #656363;
 }
 /* end intro */
+
+/* start history */
+
+/* end history */
