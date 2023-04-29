@@ -330,9 +330,8 @@ a {
   margin: 0 166px;
   display: flex;
   justify-content: space-between;
-  
 }
-.history__desc{
+.history__desc {
   width: 444px;
 }
 .history__desc-title {
@@ -347,6 +346,7 @@ a {
   color: #000000;
 }
 .history__desc-text {
+  padding-bottom: 80px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -354,5 +354,31 @@ a {
   line-height: 22px;
   text-align: center;
   color: #656363;
+}
+.counter__list {
+  padding-left: 81px;
+  padding-right: 97px;
+  display: flex;
+  justify-content: space-between;
+}
+.counter__list__item-num {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+}
+.counter__list__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+.history__footer{
+  background-image: url(../img/bg-history.jpg);
 }
 /* end history */
