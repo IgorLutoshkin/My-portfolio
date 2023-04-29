@@ -329,14 +329,30 @@ a {
 .history {
   margin: 0 166px;
   display: flex;
+  justify-content: space-between;
+  
+}
+.history__desc{
+  width: 444px;
 }
 .history__desc-title {
+  padding-top: 15px;
   padding-left: 54px;
+  padding-bottom: 21px;
   font-family: "Tinos";
   font-style: normal;
   font-weight: 400;
   font-size: 54px;
   line-height: 62px;
   color: #000000;
+}
+.history__desc-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #656363;
 }
 /* end history */
