@@ -326,5 +326,17 @@ a {
 /* end intro */
 
 /* start history */
-
+.history {
+  margin: 0 166px;
+  display: flex;
+}
+.history__desc-title {
+  padding-left: 54px;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: #000000;
+}
 /* end history */
