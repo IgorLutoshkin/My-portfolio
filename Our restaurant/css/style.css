@@ -328,11 +328,11 @@ a {
 /* start history */
 .history {
   margin: 0 166px;
-  padding-bottom: 114px;
+  padding-bottom: 113px;
   display: flex;
 }
 .history__desc {
-  margin-right: 112px;
+  margin-right: 111px;
 }
 .history__desc-title {
   padding-top: 15px;
@@ -388,12 +388,15 @@ a {
 }
 
 .history__footer {
+  padding-left: 165px;
+  display: flex;
+  justify-content: ;
+  align-items: center;
   background-image: url(../img/bg-history.jpg);
 }
 .history__footer-title {
   padding-top: 80px;
-  padding-bottom: 157px;
-  margin-left: 165px;
+  padding-bottom: 20px;
   width: 601px;
   font-family: "Tinos";
   font-style: normal;
@@ -401,4 +404,14 @@ a {
   font-size: 52px;
   line-height: 60px;
 }
+.history__footer-text {
+  padding-bottom: 104px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
 /* end history */
