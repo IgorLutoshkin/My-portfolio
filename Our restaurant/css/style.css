@@ -138,6 +138,17 @@ a {
 }
 /* reset */
 
+/* вставка знака рубля */
+@font-face {
+  font-family: "rouble";
+  src: url("/full_path/fonts/rouble.otf") format("opentype");
+  src: url(../font/rouble.otf);
+}
+.rouble {
+  font-family: "rouble";
+}
+/* вставка знака рубля */
+
 /* start heder */
 .heder {
   margin-bottom: 372px;
@@ -393,6 +404,9 @@ a {
   align-items: center;
   background-image: url(../img/bg-history.jpg);
 }
+.text_orange {
+  color: #d67e34;
+}
 .history__footer-title {
   padding-top: 80px;
   padding-bottom: 20px;
@@ -404,7 +418,7 @@ a {
   line-height: 60px;
 }
 .history__footer-text {
-  padding-bottom: 104px;
+  padding-bottom: 103px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
