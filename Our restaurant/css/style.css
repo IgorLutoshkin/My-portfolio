@@ -138,17 +138,6 @@ a {
 }
 /* reset */
 
-/* вставка знака рубля */
-@font-face {
-  font-family: "rouble";
-  src: url("/full_path/fonts/rouble.otf") format("opentype");
-  src: url(../font/rouble.otf);
-}
-.rouble {
-  font-family: "rouble";
-}
-/* вставка знака рубля */
-
 /* start heder */
 .heder {
   margin-bottom: 372px;
@@ -236,7 +225,6 @@ a {
 .heder-title__btn {
   width: 137px;
   text-align: center;
-  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -266,7 +254,6 @@ a {
   padding-bottom: 21px;
   display: flex;
   align-items: center;
-  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -359,7 +346,6 @@ a {
 .history__desc-text {
   width: 444px;
   height: 217px;
-  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -375,7 +361,6 @@ a {
   justify-content: start;
 }
 .counter__list__item-num {
-  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -389,7 +374,6 @@ a {
   padding-right: 30px;
 }
 .counter__list__text {
-  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -419,7 +403,6 @@ a {
 }
 .history__footer-text {
   padding-bottom: 103px;
-  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -428,7 +411,6 @@ a {
 }
 .history__footer-btn {
   padding-left: 331px;
-  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -436,3 +418,7 @@ a {
 }
 
 /* end history */
+
+/* start our dishes */
+
+/* end our dishes */
