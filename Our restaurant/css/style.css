@@ -326,7 +326,8 @@ a {
 /* start history */
 .history {
   margin: 0 166px;
-  padding-bottom: 113px;
+  margin-bottom: 113px;
+  /* padding-bottom: 113px; */
   display: flex;
 }
 .history__desc {
@@ -402,7 +403,7 @@ a {
   line-height: 60px;
 }
 .history__footer-text {
-  padding-bottom: 103px;
+  padding-bottom: 104px;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -419,8 +420,17 @@ a {
 
 /* end history */
 
-
-
 /* start our dishes */
-
+.dishes{
+  margin: 132px 146px 152px 165px;
+}
+.dishes__title {
+  padding-left: 423px;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: #000000;
+}
 /* end our dishes */
