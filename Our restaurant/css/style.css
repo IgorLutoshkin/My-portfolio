@@ -422,7 +422,9 @@ a {
 
 /* start our dishes */
 .dishes {
-  margin: 132px 146px 152px 165px;
+  /* margin: 132px 146px 152px 165px; */
+  margin-left: 165px;
+  margin-top: 132px;
 }
 .dishes__title {
   padding-left: 423px;
@@ -434,17 +436,36 @@ a {
   line-height: 62px;
   color: #000000;
 }
+.dishes__wrap-pic {
+  display: block;
+  padding-right: 30px;
+}
 .dishes__wrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
 }
 
-.dishes__item{
+.dishes__item {
   display: flex;
   padding-bottom: 29px;
 }
-.dishes__item:last-child{
+
+.dishes__item:last-child {
   padding-bottom: 0;
+}
+.dishes__item-desc {
+  padding-top: 40px;
+  padding-left: 30px;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
+}
+.item-desc__midl {
+  padding-top: 35px;
 }
 
 /* end our dishes */
+
