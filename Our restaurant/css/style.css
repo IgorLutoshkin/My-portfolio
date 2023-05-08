@@ -487,16 +487,28 @@ a {
   text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
-.menu__list{
+.menu__list {
   display: flex;
   padding-left: 166px;
 }
-.menu__item{
+.menu__item {
   padding-top: 80px;
   padding-left: 62px;
   padding-right: 62px;
   padding-bottom: 22px;
   background-color: #fff;
 }
+.menu__item-title {
+  text-align: center;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
+}
 
+.menu__item-desc{
+  
+}
 /* end our menu */
