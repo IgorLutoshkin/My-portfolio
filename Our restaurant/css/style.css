@@ -425,7 +425,7 @@ a {
   /* margin: 132px 146px 152px 165px; */
   margin-left: 165px;
   margin-top: 132px;
-  margin-bottom: 152px;
+  margin-bottom: 148px;
 }
 .dishes__title {
   padding-left: 423px;
@@ -470,7 +470,26 @@ a {
 /* end our dishes */
 
 /* start our menu */
+.our-menu {
+  background-image: url(../img/our-menu-bg.jpg);
+}
+
+.our-menu__title {
+  padding-top: 96px;
+  padding-bottom: 138px;
+  padding-left: 589px;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: #ffffff;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu__list{
+  display: flex;
+}
+
 
 /* end our menu */
-
-
