@@ -476,7 +476,7 @@ a {
 
 .our-menu__title {
   padding-top: 96px;
-  padding-bottom: 138px;
+  padding-bottom: 140px;
   padding-left: 589px;
   font-family: "Tinos";
   font-style: normal;
@@ -489,7 +489,14 @@ a {
 
 .menu__list{
   display: flex;
+  padding-left: 166px;
 }
-
+.menu__item{
+  padding-top: 80px;
+  padding-left: 62px;
+  padding-right: 62px;
+  padding-bottom: 22px;
+  background-color: #fff;
+}
 
 /* end our menu */
