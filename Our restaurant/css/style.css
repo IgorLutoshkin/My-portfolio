@@ -492,13 +492,16 @@ a {
   padding-left: 166px;
 }
 .menu__item {
+  width: 350px;
   padding-top: 80px;
   padding-left: 62px;
   padding-right: 62px;
-  padding-bottom: 22px;
   background-color: #fff;
 }
+
 .menu__item-title {
+  padding-top: 22px;
+  padding-bottom: 17px;
   text-align: center;
   font-family: "Tinos";
   font-style: normal;
@@ -508,7 +511,14 @@ a {
   color: #000000;
 }
 
-.menu__item-desc{
-  
+.menu__item-desc {
+  padding: 0 62px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
 }
+
 /* end our menu */
