@@ -504,7 +504,29 @@ a {
 .menu__item:last-child {
   margin-right: 0;
 }
+.menu__box-pic {
+  position: relative;
+}
+.menu__pic-price {
+  padding-top: 27px;
+  padding-left: 22px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #d67e34;
+  border: 7px solid #ffffff;
 
+  font-family: "Cookie";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 33px;
+  color: #ffffff;
+}
 .menu__item-title {
   padding-top: 22px;
   padding-bottom: 17px;
