@@ -494,6 +494,7 @@ a {
   padding-bottom: 226px;
 }
 .menu__item {
+  position: relative;
   margin-right: 30px;
   padding-top: 80px;
   padding-left: 62px;
@@ -503,6 +504,23 @@ a {
 }
 .menu__item:last-child {
   margin-right: 0;
+}
+.block__info {
+  width: 101px;
+}
+.block__info-text {
+  padding: 7px 11px 11px 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  background-color: #d67e34;
 }
 .menu__box-pic {
   position: relative;
