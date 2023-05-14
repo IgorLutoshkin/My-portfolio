@@ -632,5 +632,11 @@ a {
   line-height: 27px;
   color: #000000;
 }
+.scroll-menu__list{
+  padding-left: 710px;
+  display: flex;
+  justify-content:start;
+  align-items: center;
+}
 
 /* end feedback */
