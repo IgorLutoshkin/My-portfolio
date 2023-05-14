@@ -601,4 +601,8 @@ a {
   text-align: center;
   color: #000000;
 }
+.feedback__pic{
+  display: block;
+  margin: 0 auto;
+}
 /* end feedback */
