@@ -604,5 +604,11 @@ a {
 .feedback__pic{
   display: block;
   margin: 0 auto;
+  padding-bottom: 17px;
 }
+.feedback__pic-desc{
+  text-align: center;
+}
+
+
 /* end feedback */
