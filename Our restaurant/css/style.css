@@ -208,9 +208,7 @@ a {
   padding: 14px 18px;
   background-color: #ff7400;
 }
-.navlist__item-link,
-.navlist__item-phone {
-}
+
 .navlist__item-link:hover,
 .navlist__item-phone:hover {
   color: #d67e35;
@@ -585,3 +583,22 @@ a {
 }
 
 /* end our menu */
+
+/* start feedback */
+.feedback {
+  width: 100%;
+  background-color: #e5e5e5;
+}
+.feedback__desc {
+  padding-top: 104px;
+  padding-bottom: 23px;
+  width: 920px;
+  margin: 0 auto;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+/* end feedback */
