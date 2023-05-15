@@ -671,4 +671,8 @@ a {
   line-height: 62px;
   color: #000000;
 }
+.food-gallery__box{
+  display: flex;
+  justify-content: space-between;
+}
 /* end  food gallery*/
