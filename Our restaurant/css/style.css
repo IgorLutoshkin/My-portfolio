@@ -654,3 +654,12 @@ a {
   border: 1px solid #ff7400;
 }
 /* end feedback */
+
+/* start food gallery */
+.food-gallery__wrap{
+  margin-top: 101px;
+  margin-left: 167px;
+  margin-right: 165px;
+  margin-bottom: 100px;
+}
+/* end  food gallery*/
