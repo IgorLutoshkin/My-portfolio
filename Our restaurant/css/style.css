@@ -643,8 +643,7 @@ a {
   box-sizing: content-box;
   width: 5px;
   height: 5px;
-  background-color:#C4C4C4;
-  ;
+  background-color: #c4c4c4;
   border-radius: 5px;
 }
 .scroll-menu__item:hover {
@@ -656,10 +655,20 @@ a {
 /* end feedback */
 
 /* start food gallery */
-.food-gallery__wrap{
+.food-gallery__wrap {
   margin-top: 101px;
   margin-left: 167px;
   margin-right: 165px;
   margin-bottom: 100px;
+}
+.food-gallery__title {
+  padding-left: 409px;
+  padding-bottom: 60px;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: #000000;
 }
 /* end  food gallery*/
