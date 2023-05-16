@@ -671,8 +671,18 @@ a {
   line-height: 62px;
   color: #000000;
 }
-.food-gallery__box{
-  display: flex;
-  justify-content: space-between;
+.food-gallery__box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
 }
+
+.pic-glasses-up {
+  grid-column: 1/3;
+}
+.pic-glasses-down {
+  grid-column: 3/5;
+}
+
 /* end  food gallery*/
