@@ -640,17 +640,20 @@ a {
 }
 .scroll-menu__item {
   padding-right: 2px;
-  box-sizing: content-box;
-  width: 5px;
-  height: 5px;
+
+  width: 7px;
+  height: 7px;
   background-color: #c4c4c4;
-  border-radius: 5px;
+  border-radius: 50%;
+  border: 1px solid #e5e5e5;
+  
 }
 .scroll-menu__item:hover {
-  width: 7px;
+  width:7px;
   height: 7px;
   box-sizing: border-box;
   border: 1px solid #ff7400;
+  background-color: #e5e5e5;
 }
 /* end feedback */
 
@@ -690,9 +693,9 @@ a {
 .our-chefs-wrap {
   margin: 0 165px 44px 165px;
 }
-.our-chefs__title { 
+.our-chefs__title {
+  padding-left: 393px;
   padding-bottom: 107px;
-  text-align: center;
   font-family: "Tinos";
   font-style: normal;
   font-weight: 400;
