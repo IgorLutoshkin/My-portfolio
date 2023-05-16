@@ -688,9 +688,9 @@ a {
 
 /*start our chefs */
 .our-chefs-wrap {
-  margin: 0 165px 100px 165px;
+  margin: 0 165px 44px 165px;
 }
-.our-chefs__title {
+.our-chefs__title { 
   padding-bottom: 107px;
   text-align: center;
   font-family: "Tinos";
@@ -700,11 +700,20 @@ a {
   line-height: 62px;
   color: #000000;
 }
-.our-chefs__box-pic{
+.our-chefs__box-pic {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
 }
-
-
+.our-chefs-pic {
+  display: block;
+  padding-right: 32px;
+  padding-bottom: 51px;
+}
+.our-chefs__scroll-list {
+  padding-left: 548px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
 /*end our chefs */
