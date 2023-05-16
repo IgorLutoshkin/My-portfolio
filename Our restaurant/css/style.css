@@ -687,7 +687,9 @@ a {
 /* end  food gallery*/
 
 /*start our chefs */
-
+.our-chefs-wrap{
+  margin: 0 165px 100px 165px;
+}
 /*end our chefs */
 
 
