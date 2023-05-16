@@ -640,11 +640,10 @@ a {
 }
 .scroll-menu__item {
   padding-right: 2px;
-
   width: 7px;
   height: 7px;
-  background-color: #c4c4c4;
   border-radius: 50%;
+  background-color: #c4c4c4;
   border: 1px solid #e5e5e5;
   
 }
@@ -691,7 +690,7 @@ a {
 
 /*start our chefs */
 .our-chefs-wrap {
-  margin: 0 165px 44px 165px;
+  margin: 0 165px 42px 165px;
 }
 .our-chefs__title {
   padding-left: 393px;
@@ -720,3 +719,8 @@ a {
   align-items: center;
 }
 /*end our chefs */
+
+
+/* start footer pic */
+
+/*  end footer pic */
