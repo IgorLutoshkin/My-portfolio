@@ -700,5 +700,11 @@ a {
   line-height: 62px;
   color: #000000;
 }
+.our-chefs__box-pic{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
 
 /*end our chefs */
