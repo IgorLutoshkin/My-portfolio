@@ -687,9 +687,18 @@ a {
 /* end  food gallery*/
 
 /*start our chefs */
-.our-chefs-wrap{
+.our-chefs-wrap {
   margin: 0 165px 100px 165px;
 }
+.our-chefs__title {
+  padding-bottom: 107px;
+  text-align: center;
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: #000000;
+}
+
 /*end our chefs */
-
-
