@@ -1,4 +1,8 @@
 /* reset */
+
+* {
+  outline: 1px solid red;
+}
 /* Reset and base styles  */
 * {
   padding: 0px;
@@ -288,6 +292,9 @@ a {
   height: 328px;
   background-color: #fff;
   box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+.intro__card:last-child{
+  margin-right: 0;
 }
 .intro__card-logo {
   padding-top: 48px;
@@ -719,6 +726,9 @@ a {
   padding-right: 32px;
   padding-bottom: 51px;
 }
+.our-chefs-pic:last-child{
+  padding-right: 0;
+}
 .our-chefs__scroll-list {
   padding-left: 548px;
   display: flex;
@@ -727,7 +737,12 @@ a {
 }
 /*end our chefs */
 
-
 /* start footer pic */
+.footer-pic{
+  width: 100%;
+}
+/* end footer pic */
 
-/*  end footer pic */
+/* start adaptive */
+
+/* end adaptive */
