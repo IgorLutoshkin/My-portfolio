@@ -288,12 +288,12 @@ a {
 }
 .intro__card {
   margin-right: 31px;
-  width: 349px;
+  width: 100%;
   height: 328px;
   background-color: #fff;
   box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
 }
-.intro__card:last-child{
+.intro__card:last-child {
   margin-right: 0;
 }
 .intro__card-logo {
@@ -587,7 +587,7 @@ a {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  border: 1px solid  #d67d34;
+  border: 1px solid #d67d34;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 .menu__item-btn:hover {
@@ -659,10 +659,9 @@ a {
   border-radius: 50%;
   background-color: #c4c4c4;
   border: 1px solid #e5e5e5;
-  
 }
 .scroll-menu__item:hover {
-  width:7px;
+  width: 7px;
   height: 7px;
   box-sizing: border-box;
   border: 1px solid #ff7400;
@@ -726,7 +725,7 @@ a {
   padding-right: 32px;
   padding-bottom: 51px;
 }
-.our-chefs-pic:last-child{
+.our-chefs-pic:last-child {
   padding-right: 0;
 }
 .our-chefs__scroll-list {
@@ -738,11 +737,114 @@ a {
 /*end our chefs */
 
 /* start footer pic */
-.footer-pic{
+.footer-pic {
   width: 100%;
 }
 /* end footer pic */
 
 /* start adaptive */
+
+/* 1280px */
+@media screen and (max-width: 1280px) {
+  .logo-wrap {
+    padding-right: 50px;
+  }
+
+  .intro {
+    margin-left: 10px;
+    margin-right: 10px;
+    left: 0;
+    right: 0;
+  }
+  .intro__card {
+    width: 100%;
+  }
+  .history {
+    margin: 0;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+  .history__desc {
+    margin-right: 20px;
+  }
+  .history__footer {
+    padding-left: 20px;
+    justify-content: center;
+  }
+  .history__footer-btn {
+    margin-right: 20px;
+    margin-left: auto;
+  }
+  .dishes__title {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  .dishes__wrap {
+    justify-content: center;
+  }
+  .dishes {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .our-menu__title {
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    text-align: center;
+  }
+
+  .menu__list {
+    justify-content: center;
+    padding-left: 0;
+  }
+  .feedback__desc-wrap {
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .feedback__desc {
+    margin: 0 auto;
+  }
+  .feedback__pic {
+    padding-left: 0;
+    margin: 0 auto;
+  }
+  .feedback__title,
+  .feedback__name {
+    text-align: center;
+    padding-left: 0;
+  }
+  .scroll-menu__list {
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .food-gallery__title,
+  .our-chefs__title {
+    padding-left: 0;
+    text-align: center;
+  }
+  .food-gallery__wrap,
+  .our-chefs-wrap {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .food-gallery__box img {
+    width: 100%;
+  }
+
+
+  .our-chefs-pic {
+    width: 100%;
+  }
+
+  .our-chefs__scroll-list {
+    padding-left: 0;
+    justify-content: center;
+  }
+}
 
 /* end adaptive */
